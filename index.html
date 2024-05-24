@@ -20,8 +20,16 @@
     rel="stylesheet" />
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- Storyset -->
   <!-- <a href="https://storyset.com/people">People illustrations by Storyset</a> -->
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 
@@ -72,7 +80,8 @@
         <div class="col-xxl-5">
 
           <!-- Header text content -->
-          <div class="text-center text-xxl-start">
+          <!-- My assumption is that we add the data-aos fade in our main div?? -->
+          <div class="text-center text-xxl-start" data-aos="fade-right">
             <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
               <div class="text-uppercase">Design &middot; Development &middot; Marketing</div>
             </div>
@@ -90,7 +99,8 @@
         <!-- Header Profile Picture -->
         <div class="col-xxl-7" id="profile">
           <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-            <div class="profile bg-gradient-primary-to-secondary">
+            <!-- for the second fade, i would just put here -->
+            <div class="profile bg-gradient-primary-to-secondary" data-aos="fade-left" >
               <img src="assets/Coding-bro.png" alt="Png display" class="profile-img" height="500px" width="500px">
             </div>
           </div>
@@ -118,7 +128,7 @@
               Praesentium ratione atque dolorem?</p>
             <div class="d-flex justify-content-center fs-2 gap-4">
               <!-- <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a> -->
-              <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
+              <a class="text-gradient" href="https://www.linkedin.com/in/chang-kok-shen-4b0b50188/"><i class="bi bi-linkedin"></i></a>
               <a class="text-gradient" href="https://github.com/kshen0414"><i class="bi bi-github"></i></a>
             </div>
           </div>
@@ -127,8 +137,32 @@
     </div>
   </section>
 
+<!-- Experience section -->
+<!-- It's been a long time since i've coded html + css, let's test out my knowledge -->
+<section>
+<div class="container px-5">
+  <div class="row gx-5 justify-content-center">
+    <div class="col-xxl-8">
+      <div class="text-center-my-6">
+        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Experience</span></h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae eveniet ea assumenda dolores accusamus similique iure porro laudantium dicta obcaecati repellat facere quam, temporibus voluptas optio blanditiis explicabo. Veritatis, ipsam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto saepe atque excepturi unde suscipit odio, culpa sunt quaerat tenetur et dolorem. Fugiat sapiente eius corrupti doloremque! Maiores eos itaque reprehenderit?</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
 
 
+<!-- AOS JS -->
+<script>
+  AOS.init({
+    duration: 650,
+    once : true
+  }
+  );
+</script>
 
 </body>
 

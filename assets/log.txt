@@ -1,0 +1,10 @@
+# Logs
+
+[24-5-2024]
+- Today, implemented a new section which is the experiences div
+- hmmm, i am wondering how to make specific sections stick?? I remember i saw a tutorial teaching this somewhere
+- tbh, another implementation i would like is to probably make it like a fade in effect when i restart the webpage?? Hahahha would definitely look cool in my opinion
+
+Problems
+- hmmm, don't know why after, adding data-aos = "fade-left" but no effect eh???
+- to note that this library is called animate on scroll
