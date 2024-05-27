@@ -8,7 +8,7 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 .timeline-section{
-	background-color: #24292d;
+	/* background-color: #24292d; */
 	min-height: 100vh;
 	padding: 100px 15px;
 }
@@ -57,19 +57,21 @@ body{
 	margin:6px 0 15px;
 }
 .timeline-content{
-    background-color: #2f363e;
+    /* background-color: #2f363e; */
 	padding: 30px;
 	border-radius: 5px;
 }
 .timeline-content h3{
     font-size: 20px;
-	color: #ffffff;
+	/* color: #ffffff; */
+	color: black;
 	margin:0 0 10px;
 	text-transform: capitalize;
 	font-weight: 500;
 }
 .timeline-content p{
-    color: #c8c8c8;
+    /* color: #c8c8c8; */
+	color: black;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 22px;
