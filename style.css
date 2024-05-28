@@ -45,7 +45,8 @@ body{
 .timeline-dot{
 	height: 16px;
 	width: 16px;
-	background-color: #eaa023;
+	/* background-color: #eaa023; */
+	background-color: black;
 	position: absolute;
 	left: calc(50% - 8px);
 	border-radius: 50%;
@@ -53,7 +54,8 @@ body{
 }
 .timeline-date{
 	font-size: 18px;
-	color: #eaa023;
+	/* color: #eaa023; */
+	color: black;
 	margin:6px 0 15px;
 }
 .timeline-content{
