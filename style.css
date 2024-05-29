@@ -96,3 +96,27 @@ body{
 		left:0;
 	}
 }
+
+
+/* CSS for typewriter animation */
+
+#cursor{
+	color: #105cd4;
+	animation: blink 1s linear infinite;
+}
+
+#typewrite {
+	color: aqua;
+	font-weight: bold;
+}
+
+@keyframes blink {
+
+	0% {
+		opacity: 100%;
+	}
+
+	50% {
+		opacity: 0%;
+	}
+}
