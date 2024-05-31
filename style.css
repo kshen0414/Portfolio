@@ -120,3 +120,60 @@ body{
 		opacity: 0%;
 	}
 }
+
+
+/* CSS for full section div */
+/* Too be honest i personally like it, but it just feels very user unfriendly... */
+/* but if you were ever curious on how to implement it */
+/* just nest everything in a big section put class as "lock"  */
+/* then let our child's parent div have a class of "slides" */
+
+/* .lock {
+	width: 100%;
+	height: 100vh;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+}
+
+.slides {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:50px;
+	scroll-snap-align:start;
+} */
+
+
+/* CSS for more scroll animations */
+.hidden {
+	opacity: 0;
+	transform: translateX(-100%);
+	transition: all 1s;
+}
+
+div > .hidden:nth-child(even) {
+	/* opacity: 0;  */
+	transform: translate(100%);
+	transition: all 1s;
+	/* background-color: aqua; */
+}
+
+@media (prefers-reduced-motion){
+	.hidden{
+		transition: none;
+	}
+}
+
+.show {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+
+div > .show:nth-child(even) {
+	opacity: 1;
+	transform: translateX(0);
+}
+
