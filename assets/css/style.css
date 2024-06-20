@@ -167,13 +167,13 @@ body {
 .hidden {
 	opacity: 0;
 	transform: translateX(-100%);
-	transition: all 1s;
+	transition: all 1.1s;
 }
 
 div>.hidden:nth-child(even) {
 	/* opacity: 0;  */
 	transform: translate(100%);
-	transition: all 1s;
+	transition: all 1.1s;
 	/* background-color: aqua; */
 }
 
@@ -199,7 +199,7 @@ div>.show:nth-child(even) {
 
  .move {
 	position: relative;
-	transition: transform 0.3s;
+	transition: transform 0.2s;
 	transform: translateX(0px);
 	/* border: solid cyan 2px; */
 }
